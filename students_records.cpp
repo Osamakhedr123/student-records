@@ -165,13 +165,13 @@ int Students_info(struct Students stu[],int num_Students)
     cout<<("--------------------------------------------\n");
     cout<<("Displaying...info:-\n");
     cout<<("********\n");
-    cout<<"The details of the students ID who get the HIGHEST accumulative score is:-";
+    cout<<"The details of the students ID who got the highest accumulative score is:-";
     cout<<"\n";
     cout<<">>Name: "<<stu[flag1].First_name <<" "<<stu[flag1].Second_name;
     cout<<"\n";
     cout<<">>ID: "<< stu[flag1].ID<<"\n";
     cout<<("--------------------------------------------\n");
-    cout<<"The details of the students ID who get the LOWEST accumulative score is:-";
+    cout<<"The details of the students ID who get the lowest accumulative score is:-";
     cout<<"\n";
     cout<<">>Name: "<<stu[flag2].First_name <<" "<<stu[flag2].Second_name;
     cout<<"\n";
@@ -179,7 +179,7 @@ int Students_info(struct Students stu[],int num_Students)
     cout<<("--------------------------------------------\n");
     for(int i=0;i<5;i++)
     {
-        cout<<"The MEAN of subject#"<<i+1<<": "<<M[i]<<"\n";
+        cout<<"The mean of subject#"<<i+1<<": "<<M[i]<<"\n";
         cout<<"The SD of subject#"<<i+1<<": "<<SD[i]<<"\n";
     }
 
