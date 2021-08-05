@@ -1,5 +1,5 @@
 # Student Records  
-This C++ program asks the user to enter the records for a number of student in a number of subjects. These numbers are specified by the user.
+This C++ program asks the user to enter the records for a number of students in a number of subjects. These numbers are specified by the user.
 The program then:
 - calculates the average score per student.
 - prints the details of the students {First name, Last name, ID} who got the highest and lowest accumulative scores in all subjects.
